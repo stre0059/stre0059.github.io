@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="table,HTML">
+	<meta name="author" content="Maggie Street">
+	<title>Assignment 2</title>
+</head>
+<body>
+	<header>
+		<h1>Assignment 2</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Employee List </h2>
+			<table border="1">
+				<thead align="center"> 
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>email</th>
+					</tr>
+				</thead>
+				<tbody align="center">
+					<tr>
+						<td>1</td>
+						<td>John</td>
+						<td>john@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>sam</td>
+						<td>sam@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Bob</td>
+						<td>bob@fakemail.com</td>
+					</tr>
+						<td>1</td>
+						<td>rob</td>
+						<td>Rob@fakemail.com</td>
+					<tr>
+				</tbody>
+				<tfoot align="center">
+					<tr>
+						<td colspan="3"> 
+						All of the above are Division Heads
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+		<section>
+			<h2>Animals</h2>
+			<!--Below are animals and their appropriate names.-->
+			<article>
+				<figure>
+					<img src="img/elephant.jpg" alt="elephant" width="300" height="200">
+					<figcaption>This is an Elephant.</figcaption>
+				</figure>
+				<figure>
+					<img src="img/lion.jpg" alt="lion" width="300" height="200">
+					<figcaption>This is a Lion.</figcaption>
+				</figure>
+				<figure>
+					<img src="img/snake.jpg" alt="snake" width="300" height="200">
+					<figcaption>This is a Snake.</figcaption>
+				</figure>
+				<!--This is an eastern brown snake-->
+				<figure>
+					<img src="img/whale.jpg" alt="whale" width="300" height="200">
+					<figcaption>This is a Whale.</figcaption>
+				</figure>
+				<figure>
+					<img src="img/hawk.jpg" alt="hawk" width="300" height="200">
+					<figcaption>This is a Hawk.</figcaption>
+				</figure>
+			</article>
+		</section>
+		<section>
+			<h3>HTML Entities</h3>
+			<!--Entities for specific symbols-->
+			<p>Non Breaking Space: &#160;</p>
+			<br>
+			<p>Amperstand: &#38;</p>
+			<p>Pound: &#163;</p>
+			<p>Copyright: &#169;</p>
+		</section>
+		<section>
+			<h2>Special Tags</h2>
+			<article id="st-di" class="special-tags">
+				<dl>
+					<dt>Coffee</dt>
+					<dd>-Black Hot Drink</dd>
+					<dt>Milk</dt>
+					<dd>-white cold drink</dd>
+					<p>HTML</p>
+					<p>CSS</p>
+				</dl>
+			</article>
+		</section>
+		<section>
+			<article class="special tag" id="details">
+			<summary>What is a mobile phone?</summary>
+			<p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. </p>				
+			</article>
+		</section>
+		<section>
+			<h2>Hidden Comments</h2>
+			<!-- Thank you fpr all your help! Have a 	
+				great long weekend! -->
+		</section>
+	</main>
+</body>
+</html>
