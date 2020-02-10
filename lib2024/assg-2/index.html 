@@ -37,10 +37,11 @@
 						<td>Bob</td>
 						<td>bob@fakemail.com</td>
 					</tr>
+					<tr>
 						<td>1</td>
 						<td>rob</td>
 						<td>Rob@fakemail.com</td>
-					<tr>
+					</tr>
 				</tbody>
 				<tfoot align="center">
 					<tr>
@@ -95,15 +96,19 @@
 					<dd>-Black Hot Drink</dd>
 					<dt>Milk</dt>
 					<dd>-white cold drink</dd>
-					<p>HTML</p>
-					<p>CSS</p>
 				</dl>
 			</article>
+			<div>
+				<p>HTML</p>
+				<p>CSS</p>
+			</div>
 		</section>
 		<section>
 			<article class="special tag" id="details">
-			<summary>What is a mobile phone?</summary>
-			<p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. </p>				
+				<details>
+					<summary>What is a mobile phone?</summary>
+					<p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. </p>
+				</details>				
 			</article>
 		</section>
 		<section>
