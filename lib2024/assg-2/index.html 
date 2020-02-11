@@ -57,24 +57,24 @@
 			<!--Below are animals and their appropriate names.-->
 			<article>
 				<figure>
-					<img src="img/elephant.jpg" alt="elephant" width="300" height="200">
+					<img src="img/elephant.jpeg" alt="elephant" width="300" height="200">
 					<figcaption>This is an Elephant.</figcaption>
 				</figure>
 				<figure>
-					<img src="img/lion.jpg" alt="lion" width="300" height="200">
+					<img src="img/lion.jpeg" alt="lion" width="300" height="200">
 					<figcaption>This is a Lion.</figcaption>
 				</figure>
 				<figure>
-					<img src="img/snake.jpg" alt="snake" width="300" height="200">
+					<img src="img/snake.jpeg" alt="snake" width="300" height="200">
 					<figcaption>This is a Snake.</figcaption>
 				</figure>
 				<!--This is an eastern brown snake-->
 				<figure>
-					<img src="img/whale.jpg" alt="whale" width="300" height="200">
+					<img src="img/whale.jpeg" alt="whale" width="300" height="200">
 					<figcaption>This is a Whale.</figcaption>
 				</figure>
 				<figure>
-					<img src="img/hawk.jpg" alt="hawk" width="300" height="200">
+					<img src="img/hawk.jpeg" alt="hawk" width="300" height="200">
 					<figcaption>This is a Hawk.</figcaption>
 				</figure>
 			</article>
@@ -99,8 +99,8 @@
 				</dl>
 			</article>
 			<div>
-				<p>HTML</p>
-				<p>CSS</p>
+				<p> <abbr title="Hypertext Markup Language">HTML </abbr></p>
+				<p><abbr title="Cascading Style Sheets">CSS</abbr></p>
 			</div>
 		</section>
 		<section>
