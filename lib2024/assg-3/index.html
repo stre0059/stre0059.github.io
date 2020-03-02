@@ -5,9 +5,8 @@
 	<h1>Welcome to Our Sign-up Page!</h1>
 	<p>Thank you so much for your intrest in the Jelly of the Month Club! Signing up is super easy, just fill out the forms below and you'll be on your way to the gift that keeps on giving the whole year long!</p>
 </head>
-<body>
-	<h2>Personal Information</h2>
-	<div id="sum-container" class="form-elm">
+		<h2>Personal Information</h2>
+		<div id="sum-container" class="form-elm">
 		<label for="How did they hear about us">How did you hear about us</label><br>
 		<textarea name="How did they hear about us" id="How did they hear about us" placeholder="How did they hear about us">
 		</textarea>
@@ -18,7 +17,7 @@
 	</div>
 	<div id="ln-container" class="form-elm">
 		<label for="LastName">Last Name</label>
-		<input type="text" name="LastName" id="LastName" placeholder="Last Name Only" required>
+		<input type="text" name="LastName" id="LastName" placeholder="Last Name Only" required="">
 	</div>
 	<div id="pass-container" class="form-elm">
 		<label for="pass">Password</label>
@@ -26,7 +25,7 @@
 	</div>
 	<div>
 		<label for="dte">Date of Birth</label>
-		<input type="date" name="dte" id="dte" required="">
+		<input type="date" name="dte" id="dte" required>
 		
 	</div>
 	<div id="email-container" class="form-elm">
@@ -65,6 +64,7 @@
 		<h4>Thank you for your information! If you would like more personalized options please continue to fill out the forms below.</h4>
 	</div>
 	<div id="radio-container" class="form-elm">
+	</div>
 		<p>What is your Gender?</p>
 			<label for="Girl">
 				<input type="radio" name="like-form" id="Girl" value="Girl">
@@ -79,8 +79,7 @@
 				Neither
 			</label>
 			<label>
-				<input type="radio" name="like-form" id="Prefer not to Answer" value="Prefer not to Answer" checked>
-						Prefer not to Answer
+				<input type="radio" name="like-form" id="Prefer not to Answer" value="Prefer not to Answer" checked>Prefer not to Answer
 			</label>
 	<div>
 		<label for="num">Your Phone Number</label>
@@ -105,8 +104,4 @@
 	</div>
 		<button type="submit">Submit</button>
 			<button type="reset">Reset</button>
-</body>
-<footer>
-	
-</footer>
 </html>
